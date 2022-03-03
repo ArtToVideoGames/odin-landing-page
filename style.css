@@ -111,3 +111,45 @@ button.signUpHero {
     line-height: 250px;
     color: #F9FAF8;
 }
+
+.info {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 440px;
+    padding-top: 80px;
+    left: 0;
+    position: fixed;
+    padding-bottom: 80px;
+}
+
+h2.infoTitle {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.boxElements {
+    display: flex;
+    padding: 0 100px;
+}
+
+.boxElement {
+    width: 160px;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 160px;
+    height: 150px;
+    margin: 0 auto;
+    outline: solid 3px #3882F6;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
