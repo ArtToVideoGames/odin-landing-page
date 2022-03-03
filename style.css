@@ -43,14 +43,24 @@ li {
     display: inline;
 }
 
-a:link {
+a.logoLink:link {
+    text-decoration: none;
+    color: #E5E7EB;
+    transition: 0.2s color ease-in-out;
+}
+
+a.headerLink:link {
     text-decoration: none;
     color: #E5E7EB;
     margin: 12px;
     transition: 0.2s color ease-in-out;
 }
 
-a:hover {
+a:visited {
+    color: #E5E7EB;
+}
+
+a.headerLink:hover {
     color: #3882F6;
 }
 
@@ -193,9 +203,8 @@ h2.infoTitle {
 }
 
 .quotee {
-    text-align: center;
-    margin-left: 500px;
-    font-weight: 700;
+    text-align: right;
+    margin: 0 265px;
 }
 
 .callToAction {
