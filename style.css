@@ -3,6 +3,7 @@
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -12,7 +13,6 @@ body {
     background-color: #1F2937;
     margin: 0;
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
 }
@@ -57,10 +57,8 @@ a:link {
     margin: 0;
     padding: 0;
     width: 100%;
-    margin-top: 80px;
     padding-top: 80px;
     left: 0;
-    position: fixed;
     padding-bottom: 80px;
 }
 
@@ -118,10 +116,8 @@ button.signUpHero {
     margin: 0;
     padding: 0;
     width: 100%;
-    margin-top: 440px;
     padding-top: 80px;
     left: 0;
-    position: fixed;
     padding-bottom: 80px;
 }
 
@@ -152,4 +148,30 @@ h2.infoTitle {
     outline: solid 3px #3882F6;
     border-radius: 5px;
     margin-bottom: 7px;
+}
+
+.quoteBox {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 80px;
+    left: 0;
+    padding-bottom: 60px;
+    background-color:#E5E7EB;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0 265px;
+}
+
+.quotee {
+    text-align: center;
+    margin-left: 500px;
+    font-weight: 700;
 }
