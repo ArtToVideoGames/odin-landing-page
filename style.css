@@ -84,7 +84,7 @@ a:hover {
 
 h1.heroBig {
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 48px;
     margin: 0;
     padding: 0;
@@ -115,11 +115,21 @@ button.signUpHero:hover {
 
 .imagePlaceholder {
     width: 500px;
-    height: 250px;
+    height: 300px;
     background-color: darkgray;
     text-align: center;
     line-height: 250px;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagePlaceholder img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .info {
