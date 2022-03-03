@@ -217,3 +217,13 @@ h2.infoTitle {
     margin-top: 0;
     color: #F9FAF8;
 }
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.footerText {
+    color: #F9FAF8;
+}
