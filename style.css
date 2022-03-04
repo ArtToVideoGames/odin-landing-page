@@ -122,6 +122,13 @@ button.signUpHero {
 
 button.signUpHero > a {
     text-decoration: none;
+    color: #F9FAF8;
+    transition: 0.2s color ease-in-out;
+}
+
+button.signUpHero > a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 button.signUpHero:hover {
@@ -271,6 +278,13 @@ button.signUpAction:hover {
 
 button.signUpAction > a {
     text-decoration: none;
+    color: #F9FAF8;
+    transition: 0.2s color ease-in-out;
+}
+
+button.signUpAction > a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .actionTitle {
