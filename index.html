@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Odin Landing Page</title>
+    <title>Art's Landing Page</title>
 </head>
 <body>
     <div class="header">
         <div class="leftSide">
-            <h4 class="logo"><a class="logoLink" href="index.html">Header Logo</a></h4>
+            <h4 class="logo"><a class="logoLink" href="index.html">Art's Lander</a></h4>
         </div>
         <div class="rightSide">
             <ul>
-                <li><a class="headerLink" href="https://google.com">header link one</a></li>
-                <li><a class="headerLink" href="https://google.com">header link two</a></li>
-                <li><a class="headerLink" href="https://google.com">header link three</a></li>
+                <li><a class="headerLink" href="https://github.com/ArtToVideoGames/rock-paper-scissors">Rock Paper Scissors</a></li>
+                <li><a class="headerLink" href="#dogs" onclick="document.querySelector('#dogs')
+                    .scrollIntoView({behavior: 'smooth'});">Good Bois</a></li>
+                <li><a class="headerLink" href="#quote" onclick="document.querySelector('#quote')
+                    .scrollIntoView({behavior: 'smooth'});">Inspiration</a></li>
             </ul>
         </div>
     </div>
 
     <div class="hero">
         <div class="leftHandHero">
-            <h1 class="heroBig">This website is awesome</h1>
-            <p class="heroParagraph">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-            <button class="signUpHero">Sign Up</button>
+            <h1 class="heroBig">This website is pretty nifty</h1>
+            <p class="heroParagraph">So we had to make this landing page for <a class="standardLink" href="https://theodinproject.com">TheOdinProject</a>
+            so I modified it for myself since this is mine now and I feel justified in making it my own. Enjoy some of my other Odin projects and some dogs.</p>
+            <button class="signUpHero"><a href="https://github.com/ArtToVideoGames">Sign Up</a></button>
         </div>
         <div class="rightHandHero">
             <div class="imagePlaceholder">
@@ -34,17 +37,17 @@
         </div>
     </div>
 
-    <div class="info">
-        <h2 class="infoTitle">Some random information.</h2>
+    <div class="info" id="dogs">
+        <h2 class="infoTitle">Some really good bois</h2>
         <div class="boxElements">
-            <div class="boxElement"><div class="box"></div>this is some subtext under an illustration or image</div>
-            <div class="boxElement"><div class="box"></div>this is some subtext under an illustration or image</div>
-            <div class="boxElement"><div class="box"></div>this is some subtext under an illustration or image</div>
-            <div class="boxElement"><div class="box"></div>this is some subtext under an illustration or image</div>
+            <div class="boxElement"><div class="box"><img src="./images/dog2.jpg" alt="Adorable pupper"></div>This boi looks very happy and excited for his picture.</div>
+            <div class="boxElement"><div class="box"><img src="./images/dog3.jpg" alt="Very floofy boi"></div>This one is a very fluffy boi, very poofy indeed.</div>
+            <div class="boxElement"><div class="box"><img src="./images/dog4.jpg" alt="Beeg eyed boi"></div>This boi looks like he is uncertain on his picture, very beeg eyes.</div>
+            <div class="boxElement"><div class="box"><img src="./images/dog5.jpg" alt="Majestic Charles"></div>This one is THE MAJESTIC CHARLES BESTOWED BY ODIN</div>
         </div>
     </div>
 
-    <div class="quoteBox">
+    <div class="quoteBox" id="quote">
         <p class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
         <p class="quotee">-Thor, God of Thunder</p>
     </div>
@@ -55,12 +58,12 @@
             <p class="signUpDesc">Sign up for our product by clicking that button right over there!</p>
         </div>
         <div class="rightHandAction">
-            <button class="signUpAction">Sign up</button>
+            <button class="signUpAction"><a href="https://github.com/ArtToVideoGames">Sign Up</a></button>
         </div>
     </div>
 
     <div class="footer">
-        <p class="footerText">Copyright © ArtToVideoGames & The Odin Project 2022</p>
+        <p class="footerText">Copyright © ArtToVideoGames 2022, Made with The Odin Project</p>
     </div>
 </body>
 </html>
