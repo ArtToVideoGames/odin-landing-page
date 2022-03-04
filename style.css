@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+html, body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 .header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -72,7 +74,7 @@ a.headerLink:hover {
     margin: 0;
     padding: 0;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 180px;
     left: 0;
     padding-bottom: 80px;
 }
@@ -118,9 +120,23 @@ button.signUpHero {
     transition: 0.2s background-color ease-in-out;
 }
 
+button.signUpHero > a {
+    text-decoration: none;
+}
+
 button.signUpHero:hover {
     background-color: #F9FAF8;
     color: black;
+}
+
+.standardLink {
+    text-decoration: none;
+    color: #F9FAF8;
+    transition: 0.2s color ease-in-out;
+}
+
+.standardLink:hover {
+    color: #3882F6;
 }
 
 .imagePlaceholder {
@@ -156,7 +172,7 @@ button.signUpHero:hover {
 h2.infoTitle {
     display: block;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 40px;
 }
 
@@ -169,7 +185,7 @@ h2.infoTitle {
     width: 160px;
     text-align: center;
     margin: 0 auto;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -180,6 +196,16 @@ h2.infoTitle {
     outline: solid 3px #3882F6;
     border-radius: 5px;
     margin-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box img{
+    flex-shrink: 1;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .quoteBox {
@@ -241,6 +267,10 @@ button.signUpAction:hover {
     background-color: #F9FAF8;
     color: black;
     outline: none;
+}
+
+button.signUpAction > a {
+    text-decoration: none;
 }
 
 .actionTitle {
