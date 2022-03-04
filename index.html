@@ -10,7 +10,8 @@
 <body>
     <div class="header">
         <div class="leftSide">
-            <h4 class="logo"><a class="logoLink" href="index.html">Art's Lander</a></h4>
+            <h4 class="logo"><a class="logoLink" href="#hero" onclick="document.querySelector('#hero')
+                .scrollIntoView({behavior: 'smooth'});">Art's Lander</a></h4>
         </div>
         <div class="rightSide">
             <ul>
@@ -23,7 +24,7 @@
         </div>
     </div>
 
-    <div class="hero">
+    <div class="hero" id="hero">
         <div class="leftHandHero">
             <h1 class="heroBig">This website is pretty nifty</h1>
             <p class="heroParagraph">So we had to make this landing page for <a class="standardLink" href="https://theodinproject.com">TheOdinProject</a>
